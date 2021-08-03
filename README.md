@@ -1,4 +1,5 @@
-<h2>Portfolio website for gamers</h2>
+<h2>Gamer portfolio</h2>
+A portfolio website for gamers.
 
 <h2>Check out the project at:</h2>
 
