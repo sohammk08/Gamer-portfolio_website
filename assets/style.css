@@ -2,33 +2,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 * {
-	background: #edf0f1;
+	background: #189ab4;
 	margin-top: 0;
 }
-.nav-top {
-	display: flex;
-	margin-top: 1.5rem;
-	margin: 1.5rem 0 0 1rem;
-}
 .title {
-	color: #77df79;
-	background: #edf0f1;
-	float: left;
+	color: #d4f1f4;
 }
 .title h1 {
-	font-size: 3em;
+	font-size: 12em;
 	font-family: 'Style Script';
+	text-align: center;
+	margin-top: 9rem;
 }
-.nav {
-	display: flex;
-	margin-left: 25rem;
+.title p {
+	font-size: 2em;
+	font-family: 'Montserrat';
+	text-align: center;
+	font-weight: 600;
+	margin-top: -5rem;
 }
-.nav-op {
-	margin-right: 3rem;
+.gm {
+	max-width: 25rem;
+	background: #05445E;
 }
-.nav-op li {
-	list-style-type: none;
+.gm img {
+	max-width: 25rem;
 }
-.nav-op li a {
-	text-decoration: none;
+.gm h2 {
+	color: #75E6DA;
+	background: #05445E;
+	font-size: 2em;
+	font-family: 'Poppins';
+}
+.gm p {
+	color: #24252a;
+	background: #05445E;
 }
