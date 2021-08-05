@@ -1,40 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@200&display=swap');
 * {
-	background: #189ab4;
+	background: #24252a;
 	margin-top: 0;
+	margin-bottom: 0;
 }
-.title {
-	color: #d4f1f4;
+.nav {
+	display: flex;
 }
-.title h1 {
-	font-size: 12em;
+.nav h1 {
+	color: #edf0f1;
+	font-size: 4em;
+	font-family: 'Style Script';
+	text-align: left;
+	margin-top: 9rem;
+	margin: 0.5rem 15rem 0 1rem;
+}
+.nav-bar {
+	display: flex;
+	margin-left: auto;
+	margin-top: 2.5rem;
+}
+.nav-op {
+	margin-right: 8.5rem;
+}
+.nav-op li {
+	list-style-type: none;
+}
+.nav-op li a {
+	color: #edf0f1;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+}
+.pr {
+	display: flex;
+	margin-top: 3rem;
+}
+.pr img {
+	max-width: 45rem;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+.pr_desc h2 {
+	color: #edf0f1;
+	font-size: 5em;
 	font-family: 'Style Script';
 	text-align: center;
-	margin-top: 9rem;
 }
-.title p {
-	font-size: 2em;
+.pr_desc p {
+	color: #c7c7c7;
+	font-size: 1.2em;
 	font-family: 'Montserrat';
 	text-align: center;
-	font-weight: 600;
-	margin-top: -5rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
 }
-.gm {
-	max-width: 25rem;
-	background: #05445E;
+.social {
+	display: flex;
+	margin-left: 55rem;
 }
-.gm img {
-	max-width: 25rem;
+.social .button {
+	height: 3.75px;
+	width: 3.75px;
+	margin-right: 1rem;
+	overflow: hidden;
+	background: #24252a;
+	border-radius: 500%;
+	cursor: pointer;
+	box-shadow: 0 0.625rem 0.625rem rgba(0,0,0,0.1);
+	transition: all 0.3s ease-out;
 }
-.gm h2 {
-	color: #75E6DA;
-	background: #05445E;
-	font-size: 2em;
-	font-family: 'Poppins';
-}
-.gm p {
-	color: #24252a;
-	background: #05445E;
+.social .button:hover {
+	width: ;
 }
