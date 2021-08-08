@@ -100,3 +100,90 @@
 .social .button:hover .icon i {
 	color: #24252a;
 }
+.gcr_1 {
+	margin-top: 5rem;
+}
+.gcr_1, .gcr_2, .gcr_3 {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 7.5rem;
+}
+.gc {
+	background: #edf0f1;
+	max-width: 28.5rem;
+	border-radius: 10px;
+	margin-right: 4rem;
+	margin-left: 4rem;
+}
+.gc img {
+	max-width: 28.5rem;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.gc h3 {
+	color: #24252a;
+	background: #edf0f1;
+	font-size: 1.5em;
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	text-align: center;
+}
+.gmc {
+	background: #edf0f1;
+	justify-content: center;
+}
+.gc .gmc h3 {
+	color: #49f496;
+	font-family: 'Poppins';
+	font-size: 1em;
+	text-transform: lowercase;
+}
+.accs {
+	display: flex;
+	background: #edf0f1;
+	justify-content: center;
+	margin-top: 0.6rem;
+	padding-bottom: 1rem;
+}
+.accs h4 {
+	color: #000;
+	background: #edf0f1;
+	font-size: 1em;
+	font-family: 'Poppins';
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin: auto 2rem auto 0;
+}
+.accs h4 em {
+	background: #edf0f1;
+}
+.accs li {
+	background: #edf0f1;
+	color: #24252a;
+	font-size: 1em;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	text-transform: lowercase;
+}
+.btm_bar {
+	background: #333;
+}
+.btm_bar .nav h1 {
+	margin-right: 3rem;
+}
+.btm_bar .nav-bar {
+	margin-right: -3rem;
+}
+.con {
+	margin-top: 1rem;
+	margin-left: 2.3rem;
+}
+.con p {
+	color: #edf0f1;
+	font-size: 1.25em;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	text-transform: lowercase;
+	margin-top: 0.7rem;
+}
