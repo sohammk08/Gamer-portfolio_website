@@ -72,10 +72,9 @@
 	width: 3.75rem;
 	margin-right: 1rem;
 	overflow: hidden;
-	background: #edf0f1;
 	border-radius: 3.125rem;
 	cursor: pointer;
-	box-shadow: 0 0.625rem 0.625rem rgba(0,0,0,0.1);
+	box-shadow: 0 0.70rem 0.70rem rgba(0,0,0,0.1);
 	transition: all 0.3s ease-out;
 }
 .social .button .icon {
@@ -88,28 +87,9 @@
 	line-height: 3.75rem;
 	transition: all 0.3s ease-out;
 }
-.social .button:nth-child(1):hover .icon,
-.social .button:nth-child(1):hover i {
-	background: #7289DA;
-}
-.social .button:nth-child(2):hover .icon,
-.social .button:nth-child(2):hover i {
-	background: #6441A4;
-}
-.social .button:nth-child(3):hover .icon,
-.social .button:nth-child(3):hover i {
-	background: #4267B2;
-}
-.social .button:nth-child(4):hover .icon,
-.social .button:nth-child(4):hover i {
-	background: linear-gradient(
-    	45deg,
-        #f09433 0%,
-        #e6683c 25%,
-        #dc2743 50%,
-        #cc2366 75%,
-        #bc1888 100%
-	);
+.social .button:hover .icon,
+.social .button:hover i {
+	background: #edf0f1;
 }
 .social .button .icon i {
 	color: #edf0f1;
@@ -118,24 +98,5 @@
 	transition: all 0.3s ease-out;
 }
 .social .button:hover .icon i {
-	color: #fff;
-}
-.social .button span {
-	font-size: 1.25em;
-	font-weight: 500;
-	line-height: 3.75rem;
-	margin-left: 0.625rem;
-	transition: all 0.3s ease-out;
-}
-.social .button:nth-child(1) span {
-	color: #7289da;
-}
-.social .button:nth-child(2) span {
-	color: #6441a4;
-}
-.social .button:nth-child(3) span {
-	color: #4267b2;
-}
-.social .button:nth-child(4) span {
-	color: #e1306c;
+	color: #24252a;
 }
