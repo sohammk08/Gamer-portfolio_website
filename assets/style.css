@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Georama:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@200&family=Montserrat&family=Poppins:wght@400;900&family=Roboto&family=Style+Script&display=swap');
 * {
 	background: #24252a;
 	margin-top: 0;
@@ -100,6 +96,24 @@
 .social .button:hover .icon i {
 	color: #24252a;
 }
+.sctl {
+	margin-top: 8rem;
+}
+.sctl h2 {
+	color: #edf0f1;
+	font-size: 3em;
+	font-family: 'Poppins';
+	font-weight: 900;
+	text-transform: capitalize;
+	text-align: center;
+}
+.spr_line {
+	background: #edf0f1;
+	height: 0.2rem;
+	width: 6.4rem;
+	margin-left: auto;
+	margin-right: auto;
+}
 .gcr_1 {
 	margin-top: 5rem;
 }
@@ -136,6 +150,7 @@
 	color: #49f496;
 	font-family: 'Poppins';
 	font-size: 1em;
+	font-weight: 400;
 	text-transform: lowercase;
 }
 .accs {
@@ -148,8 +163,9 @@
 .accs h4 {
 	color: #000;
 	background: #edf0f1;
-	font-size: 1em;
+	font-size: 1.1em;
 	font-family: 'Poppins';
+	font-weight: 500;
 	text-align: center;
 	margin-top: auto;
 	margin-bottom: auto;
@@ -168,22 +184,47 @@
 }
 .btm_bar {
 	background: #333;
+	width: auto;
+	margin-left: -3px;
+	margin-right: -3px;
+}
+.btm_bar .nav {
+	background: #333;
+	margin: 0 -0.313rem -0.313rem -0.313rem;
 }
 .btm_bar .nav h1 {
+	background: #333;
 	margin-right: 3rem;
+	margin-bottom: 1.1rem;
+	padding-top: 0.2rem;
 }
 .btm_bar .nav-bar {
-	margin-right: -3rem;
+	background: #333;
+	margin-left: 5.5rem;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.btm_bar .nav-bar .nav-op:nth-child(4) {
+	margin-right: 0rem;
 }
 .con {
-	margin-top: 1rem;
+	background: #333;
 	margin-left: 2.3rem;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 .con p {
 	color: #edf0f1;
+	background: #333;
 	font-size: 1.25em;
 	font-family: 'Montserrat';
 	font-weight: 700;
 	text-transform: lowercase;
+	text-align: center;
 	margin-top: 0.7rem;
+}
+.btm_bar .nav-bar .nav-op,
+.btm_bar .nav-bar .nav-op li,
+.btm_bar .nav-bar .nav-op li a {
+	background: #333;
 }
